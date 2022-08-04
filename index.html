@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>erica-creaciones-inicio</title>
+</head>
+
+<body class="body">
+
+    <header>
+        <h1 class="titulo">BIENVENIDOS A ERICA CREACIONES</h1>
+        <H2>SUBLIMACIONES PERSONALIZADAS</H2>
+        <hr>
+        <P>Somos una empresa dedicada a las sublimacion personalizada, trabajamos tanto para venta unitarias como asi
+            tambien de forma masiva
+            trabajamos con materiales de alta calidad por lo cual la sublimacion tiene una alta durabilidad.</P>
+        <nav>
+            <ul class="barra">
+                <li> <a href="./pages/productos.html" class="link"> Productos</a> </li>
+                <li> <a href="./pages/redes.html" class="link"> Redes sociales</a></li>
+                <li> <a href="./pages/maps.html" class="link"> Donde encontrarnos</a></li>
+                <li> <a href="./pages/terminos.html" class="link"> Terminos y condiciones</a> </li>
+            </ul>
+
+        </nav>
+    </header>
+    <img src="./imagenes/logomejorado.png" alt="Imagen del logotipo" height="250px" class="foto-logo">
+    <main>
+        <form>
+            <fieldset>
+                <legend>Formulario de contacto</legend>
+                <div>
+                    <label for="nombre-usuario">Nombre y Apellido:</label>
+                    <input type="text" id="nombre-usuario">
+                </div>
+
+                <div>
+                    <label for="email-usuario">Email:</label>
+                    <input type="email" id="email-usuario">
+                </div>
+
+                <div>
+                    Por cual medio quiere ser contactado
+                    <div>
+                        <label for="medio-telefono">Telefono</label>
+                        <input type="radio" name="medio-contacto" id="medio-telefono" value="metodo-telefono">
+
+                        <label for="medio-email">Email</label>
+                        <input type="radio" name="medio-contacto" id="medio-email" value="metodo-email">
+                    </div>
+                </div>
+
+                <div>
+                    <label for="promo-usuario">¿Quiere recibir promociones?</label>
+                    <input type="checkbox" name="promociones" id="promo-usuario">
+                </div>
+
+                <div>
+                    <label for="mensaje-usuario">Mensaje:</label>
+                    <textarea cols="30" rows="10" id="mensaje-usuario"></textarea>
+                </div>
+
+                <input type="submit" value="ENVIAR">
+                <div>
+                    <label for="valoracion-usuario">Valore la web</label>
+                    <select name="valoracion-usuario" id="valoracion-usuario">
+                        <option value="valoracion-1">1</option>
+                        <option value="valoracion-2">2</option>
+                        <option value="valoracion-3">3</option>
+                        <option value="valoracion-4">4</option>
+                        <option value="valoracion-5">5</option>
+                        <option value="valoracion-6">6</option>
+                        <option value="valoracion-7">7</option>
+                        <option value="valoracion-8">8</option>
+                        <option value="valoracion-9">9</option>
+                        <option value="valoracion-10">10</option>
+                    </select>
+                </div>
+            </fieldset>
+        </form>
+        <div class="caja__publicidad">Soy una publicidad molesta</div>
+        <article>
+            <div class="caja">cajita</div>
+            <div class="caja2">cajita</div>
+        </article>
+    </main>
+</body>
+
+</html>

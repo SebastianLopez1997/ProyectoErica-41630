@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Mochiy+Pop+One&display=swap');
+
+html{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.tarjeta {
+    font-size: 2rem;
+    background-color: rgb(235, 190, 239);
+    height: 500px;
+    width: 1200px;
+    border-style: dashed;
+    border-color: rgb(174, 79, 241);
+    overflow: auto;
+}
+
+.tarjeta__descripcion {
+    font-size: 27px;
+}
+
+.tarjeta--destacado {
+    font-size: 2rem;
+    background-color: rgb(233, 206, 244);
+}
+
+.tarjeta__titulo--destacado {
+    font-size: 2rem;
+    background-color: rgb(43, 174, 226);
+}
+
+.caja {
+    background-color: rgb(196, 148, 232);
+
+    width: 300px;
+    height: 100px;
+    color: black;
+
+    border-color: rgb(0, 0, 0);
+    border-width: 3px;
+    border-style: dashed;
+
+    font-size: 2rem;
+
+    /* resumen valido border: 3px solid red;*/
+    margin-top: 50px;
+}
+
+.caja2 {
+    background-color: rgb(196, 148, 232);
+
+
+    width: 300px;
+    height: 100px;
+    color: black;
+
+    border-color: rgb(0, 0, 0);
+    border-width: 3px;
+    border-style: dashed;
+
+    font-size: 2rem;
+
+    display: inline-block;
+
+    /* resumen valido border: 3px solid red;*/
+    margin-top: 50px;
+}
+
+.caja__publicidad {
+    background-color: rgb(218, 184, 244);
+    color: aliceblue;
+    width: 300px;
+    height: 100px;
+
+    border-color: rgb(0, 0, 0);
+    border-width: 3px;
+    border-style: dashed;
+    position: fixed;
+
+    font-size: 2rem;
+
+    /* resumen valido border: 3px solid red;*/
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.caja__terminos {
+    
+
+    width: vw;
+    height: 100px;
+    color: black;
+
+    border-color: rgb(0, 0, 0);
+    border-width: 3px;
+    border-style: dashed;
+
+    font-size: 27.5px;
+
+    /* resumen valido border: 3px solid red;*/
+    margin-top: 50px;
+}
+
+.p {
+    color: blue;
+}
+
+.body {
+    background-image: url(./imagenes/Fondo.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+}
+
+.link {
+    font-size: 21px;
+    height: 20px;
+    white-space: 25px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 30px;
+}
+
+form {
+    font-size: 25px;
+}
+
+.boton__inicio {
+    background-color: rgb(217, 142, 246);
+    font-size: 25px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+.barra {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 30px;
+    border-style: dashed;
+    border-color: rgb(199, 151, 245);
+    
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+}
+
+.foto-logo{
+    background-image: url(./imagenes/logomejorado.png);
+    height: 50px;
+    display: flex;
+    flex-direction: wrap;
+    height: 250px;
+    margin-left: 50%;
+    background-position: center center;
+    background: fixed;
+}
+
+.productos{
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 30px;
+    border-style: dashed;
+    border-color: rgb(199, 151, 245);
+}
+
+.redes{
+    font-size: 35px;
+}
+
+.logo-face{
+    ima
+}
