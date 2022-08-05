@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Mochiy+Pop+One&display=swap');
 
-html{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+html {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 * {
@@ -91,7 +91,7 @@ html{
 }
 
 .caja__terminos {
-    
+
 
     width: vw;
     height: 100px;
@@ -158,7 +158,7 @@ ul li {
     height: 30px;
     border-style: dashed;
     border-color: rgb(199, 151, 245);
-    
+
 }
 
 .titulo {
@@ -166,7 +166,7 @@ ul li {
     justify-content: center;
 }
 
-.foto-logo{
+.foto-logo {
     background-image: url(./imagenes/logomejorado.png);
     height: 50px;
     display: flex;
@@ -177,7 +177,7 @@ ul li {
     background: fixed;
 }
 
-.productos{
+.productos {
     font-size: 30px;
     display: flex;
     flex-direction: row;
@@ -188,10 +188,10 @@ ul li {
     border-color: rgb(199, 151, 245);
 }
 
-.redes{
+.redes {
     font-size: 35px;
 }
 
-.logo-face{
+.logo-face {
     ima
 }
