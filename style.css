@@ -94,7 +94,7 @@ html {
 
 
     width: vw;
-    height: 100px;
+    height: 120px;
     color: black;
 
     border-color: rgb(0, 0, 0);
@@ -102,13 +102,9 @@ html {
     border-style: dashed;
 
     font-size: 27.5px;
-
+    overflow-x: scroll;
     /* resumen valido border: 3px solid red;*/
     margin-top: 50px;
-}
-
-.p {
-    color: blue;
 }
 
 .body {
@@ -141,11 +137,6 @@ form {
     font-size: 25px;
 }
 
-.boton__inicio {
-    background-color: rgb(217, 142, 246);
-    font-size: 25px;
-}
-
 ul li {
     display: inline-block;
 }
@@ -158,7 +149,6 @@ ul li {
     height: 30px;
     border-style: dashed;
     border-color: rgb(199, 151, 245);
-
 }
 
 .titulo {
@@ -178,20 +168,223 @@ ul li {
 }
 
 .productos {
+    font-size: 23px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    justify-content: space-evenly;
+    align-items: center;
+    height: 32px;
+    border-width: 2px;
+    border-style: dashed;
+    border-color: rgb(199, 151, 245);
+    
+   
+}
+
+.prod {
+    padding: 10px;
+}
+
+.redes {
     font-size: 30px;
+    text-align: center;
+    
+    display: grid;
+    
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-rows: 100%;
+    height: 120px;
+    grid-template-areas: "facebook instagram twitter whatsapp" ;
+    column-gap: 20px;
+    
+}
+
+.redes .facebook{
+    background-image: url(./imagenes/facebook.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+}
+.redes .instagram{
+    background-image: url(./imagenes/intaMejorado.png);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+}
+
+.redes .Twitter{
+    background-image: url(./imagenes/twitter.png);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.redes .redes-tarjeta{
+    background-image: url(./imagenes/wpmejorado.png);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+.pie {
+    font-size: 20px;
+    text-align: right;
+}
+
+@media (max-width: 768px) {
+
+
+h1 {
+    font-size: 22px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.barra {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    justify-content: space-around;
+    border-style: none;
+    gap: 5px;
+    padding: 30px;
+}
+
+
+
+.reparar{
+    display: flex;
+    height: 140px;
+}
+
+.link{
+    font-size: 19px;
+}
+
+
+.contenedor-celular{
+    
+    display: grid;
+    height: 100px;
+   
+    border-style: dashed;
+    border-color: rgb(199, 151, 245);
+    
+}
+
+.pie {
+    font-size: 16px;
+}
+
+.foto-logo{
+    justify-content: start;    
+    height: 120px;
+    align-items: initial;
+    
+}
+
+.productos {
+    font-size: 15px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    height: 30px;
+    align-items: center;
+    height: 25px;
     border-style: dashed;
     border-color: rgb(199, 151, 245);
+    gap: 80px;
+    
 }
 
-.redes {
-    font-size: 35px;
+p {
+    font-size: 15px;
 }
 
-.logo-face {
-    ima
+.tarjeta {
+    font-size: 2rem;
+    background-color: rgb(235, 190, 239);
+    height: 200px;
+    width: 100vh;
+    border-style: dashed;
+    border-color: rgb(174, 79, 241);
+    overflow: auto;
+}
+
+.tarjeta__descripcion {
+    font-size: 15px;
+}
+
+.tarjeta--destacado {
+    font-size: 2rem;
+    background-color: rgb(233, 206, 244);
+}
+
+.tarjeta__titulo--destacado {
+    font-size: 2rem;
+    background-color: rgb(43, 174, 226);
+}
+
+.caja__terminos{
+    font-size: 18px;
+}
+
+}
+
+@media (max-width: 376px) {
+
+.link{
+    font-size: 10px;
+}
+
+p {
+    font-size: 10px;
+}
+
+.instagram{
+    font-size: 12px;
+}
+
+.facebook{
+    font-size: 10px;
+}
+
+.Twitter{
+    font-size: 10px;
+}
+
+.redes-tarjeta{
+    font-size: 10px;
+}
+
+.titulo{
+    font-size: 15px;
+}
+
+h2{
+    font-size: 13px;
+}
+
+.productos{
+    overflow-y: scroll;
+}
+.pie {
+    font-size: 10px;
+    text-align: right;
+    background-color: rgba(218, 131, 247, 0.815);
+}
+
 }
