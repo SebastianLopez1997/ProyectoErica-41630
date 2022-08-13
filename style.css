@@ -11,17 +11,17 @@ html {
 }
 
 .tarjeta {
-    font-size: 2rem;
+    font-size: 1rem;
     background-color: rgb(235, 190, 239);
-    height: 500px;
-    width: 1200px;
+    height: auto;
+    grid-area: auto;
     border-style: dashed;
     border-color: rgb(174, 79, 241);
     overflow: auto;
 }
 
 .tarjeta__descripcion {
-    font-size: 27px;
+    font-size: 1rem;
 }
 
 .tarjeta--destacado {
@@ -42,6 +42,7 @@ html {
     border-color: rgb(0, 0, 0);
     border-width: 3px;
     border-style: dashed;
+    border-radius: 35%;
 
     font-size: 2rem;
     text-align: center;
@@ -56,6 +57,8 @@ html {
 
 }
 
+
+
 .caja2 {
     background-color: rgb(196, 148, 232);
     background: linear-gradient(red, blue);
@@ -67,7 +70,7 @@ html {
     border-color: rgb(0, 0, 0);
     border-width: 3px;
     border-style: dashed;
-
+    border-radius: 35%;
     font-size: 2rem;
 
     display: inline-block;
@@ -148,7 +151,7 @@ h2 {
 }
 
 p {
-    font-size: 30px;
+    font-size: 20px;
 }
 
 form {
@@ -167,6 +170,13 @@ ul li {
     height: 30px;
     border-style: dashed;
     border-color: rgb(199, 151, 245);
+}
+
+.contenedor-productos{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    background-color: black;
 }
 
 .titulo {
@@ -333,9 +343,8 @@ p {
 
 .productos {
     font-size: 15px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    grid-area: span;
+    
     justify-content: space-evenly;
     align-items: center;
     height: 25px;
@@ -352,6 +361,7 @@ p {
 .tarjeta {
     font-size: 2rem;
     background-color: rgb(235, 190, 239);
+    grid-area: auto;
     height: 200px;
     width: 100vh;
     border-style: dashed;
