@@ -10,6 +10,8 @@ html {
     padding: 0;
 }
 
+
+
 .tarjeta {
     font-size: 2rem;
     background-color: rgb(235, 190, 239);
@@ -47,8 +49,7 @@ html {
     text-align: center;
     /* resumen valido border: 3px solid red;*/
     margin-top: 50px;
-    transform: translate(500px)
-    transition-duration: 2s;
+    transform: translate(500px) transition-duration: 2s;
 }
 
 .caja:hover {
@@ -72,7 +73,7 @@ html {
 
     display: inline-block;
     text-align: center;
-    
+
 
     /* resumen valido border: 3px solid red;*/
     margin-top: 50px;
@@ -81,7 +82,7 @@ html {
 
 .caja__publicidad {
     background-color: rgb(218, 184, 244);
-    color: aliceblue;
+    color: rgb(6, 6, 6);
     width: 300px;
     height: 100px;
 
@@ -91,14 +92,16 @@ html {
     position: fixed;
 
     font-size: 2rem;
+    border-radius: 45px;
+    text-align: center;
 
     /* resumen valido border: 3px solid red;*/
 
     display: flex;
-    justify-content: flex-end; 
+    justify-content: flex-end;
 }
 
-.caja__publicidad:hover{
+.caja__publicidad:hover {
     transform: scale(3);
     background-color: aqua;
 }
@@ -134,9 +137,9 @@ html {
     white-space: 25px;
 }
 
-.link:hover{
+.link:hover {
     background-color: rgb(203, 24, 248);
-    
+
 }
 
 h1 {
@@ -190,15 +193,15 @@ ul li {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    
+
     justify-content: space-evenly;
     align-items: center;
     height: 32px;
     border-width: 2px;
     border-style: dashed;
     border-color: rgb(199, 151, 245);
-    
-   
+
+
 }
 
 .prod {
@@ -208,63 +211,63 @@ ul li {
 .redes {
     font-size: 30px;
     text-align: center;
-    
+
     display: grid;
-    
+
     grid-template-columns: 20% 20% 20% 20%;
     grid-template-rows: 100%;
     height: 120px;
-    grid-template-areas: "facebook instagram twitter whatsapp" ;
+    grid-template-areas: "facebook instagram twitter whatsapp";
     column-gap: 20px;
-    
+
 }
 
-.redes .facebook{
+.redes .facebook {
     background-image: url(./imagenes/facebook.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    
+
 }
 
-.redes .facebook:hover{
+.redes .facebook:hover {
     transform: scale(1.5);
 }
 
-.redes .instagram{
+.redes .instagram {
     background-image: url(./imagenes/intaMejorado.png);
-    background-position: center; 
+    background-position: center;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    
+
 }
 
-.redes .instagram:hover{
+.redes .instagram:hover {
     transform: scale(1.5);
 }
 
-.redes .Twitter{
+.redes .Twitter {
     background-image: url(./imagenes/twitter.png);
-    background-position: center; 
+    background-position: center;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 }
 
-.redes .Twitter:hover{
+.redes .Twitter:hover {
     transform: scale(1.5);
 }
 
-.redes .redes-tarjeta{
+.redes .redes-tarjeta {
     background-image: url(./imagenes/wpmejorado.png);
-    background-position: center; 
+    background-position: center;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 }
 
-.redes .redes-tarjeta:hover{
+.redes .redes-tarjeta:hover {
     transform: scale(1.5);
 }
 
@@ -277,206 +280,206 @@ ul li {
 @media (max-width: 768px) {
 
 
-h1 {
-    font-size: 22px;
+    h1 {
+        font-size: 22px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .barra {
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+        justify-content: space-around;
+        border-style: none;
+        gap: 5px;
+        padding: 30px;
+    }
+
+
+
+    .reparar {
+        display: flex;
+        height: 140px;
+    }
+
+    .link {
+        font-size: 19px;
+    }
+
+
+    .contenedor-celular {
+
+        display: grid;
+        height: 100px;
+
+        border-style: dashed;
+        border-color: rgb(199, 151, 245);
+
+    }
+
+    .pie {
+        font-size: 16px;
+    }
+
+    .foto-logo {
+        justify-content: start;
+        height: 120px;
+        align-items: initial;
+
+    }
+
+    .productos {
+        font-size: 15px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 25px;
+        border-style: dashed;
+        border-color: rgb(199, 151, 245);
+        gap: 80px;
+
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    .tarjeta {
+        font-size: 2rem;
+        background-color: rgb(235, 190, 239);
+        height: 200px;
+        width: 100vh;
+        border-style: dashed;
+        border-color: rgb(174, 79, 241);
+        overflow: auto;
+    }
+
+    .tarjeta__descripcion {
+        font-size: 15px;
+    }
+
+    .tarjeta--destacado {
+        font-size: 2rem;
+        background-color: rgb(233, 206, 244);
+    }
+
+    .tarjeta__titulo--destacado {
+        font-size: 2rem;
+        background-color: rgb(43, 174, 226);
+    }
+
+    .caja__terminos {
+        font-size: 18px;
+    }
+
 }
 
-h2 {
-    font-size: 20px;
-}
+@media (max-width: 476px) {
 
-p {
-    font-size: 18px;
-}
+    .link {
+        font-size: 10px;
+    }
 
-.barra {
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    justify-content: space-around;
-    border-style: none;
-    gap: 5px;
-    padding: 30px;
-}
+    p {
+        font-size: 10px;
+    }
 
+    .instagram {
+        font-size: 12px;
+    }
 
+    .facebook {
+        font-size: 10px;
+    }
 
-.reparar{
-    display: flex;
-    height: 140px;
-}
+    .Twitter {
+        font-size: 10px;
+    }
 
-.link{
-    font-size: 19px;
-}
+    .redes-tarjeta {
+        font-size: 10px;
+    }
 
+    .titulo {
+        font-size: 15px;
+    }
 
-.contenedor-celular{
-    
-    display: grid;
-    height: 100px;
-   
-    border-style: dashed;
-    border-color: rgb(199, 151, 245);
-    
-}
+    h2 {
+        font-size: 13px;
+    }
 
-.pie {
-    font-size: 16px;
-}
+    .productos {
+        overflow-y: scroll;
+    }
 
-.foto-logo{
-    justify-content: start;    
-    height: 120px;
-    align-items: initial;
-    
-}
+    .pie {
+        font-size: 10px;
+        text-align: right;
+        background-color: rgba(218, 131, 247, 0.815);
+    }
 
-.productos {
-    font-size: 15px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 25px;
-    border-style: dashed;
-    border-color: rgb(199, 151, 245);
-    gap: 80px;
-    
-}
+    .caja {
+        width: 100px;
+        height: 50px;
+        color: black;
+        background: radial-gradient(red, yellow);
+        border-color: rgb(0, 0, 0);
+        border-width: 3px;
+        border-style: dashed;
 
-p {
-    font-size: 15px;
-}
+        font-size: 20px;
+        text-align: center;
+        /* resumen valido border: 3px solid red;*/
+        margin-top: 50px;
+        transform: translate(0px)
+    }
 
-.tarjeta {
-    font-size: 2rem;
-    background-color: rgb(235, 190, 239);
-    height: 200px;
-    width: 100vh;
-    border-style: dashed;
-    border-color: rgb(174, 79, 241);
-    overflow: auto;
-}
+    .caja2 {
+        background-color: rgb(196, 148, 232);
+        background: linear-gradient(red, blue);
 
-.tarjeta__descripcion {
-    font-size: 15px;
-}
+        width: 100px;
+        height: 50px;
+        color: black;
 
-.tarjeta--destacado {
-    font-size: 2rem;
-    background-color: rgb(233, 206, 244);
-}
+        border-color: rgb(0, 0, 0);
+        border-width: 3px;
+        border-style: dashed;
 
-.tarjeta__titulo--destacado {
-    font-size: 2rem;
-    background-color: rgb(43, 174, 226);
-}
+        font-size: 20px;
 
-.caja__terminos{
-    font-size: 18px;
-}
+        display: inline-block;
+        text-align: center;
 
-}
+        /* resumen valido border: 3px solid red;*/
+        margin-top: 50px;
+    }
 
-@media (max-width: 400px) {
+    .caja__publicidad {
+        background-color: rgb(218, 184, 244);
+        color: aliceblue;
+        width: 100px;
+        height: 50px;
 
-.link{
-    font-size: 10px;
-}
+        border-color: rgb(0, 0, 0);
+        border-width: 3px;
+        border-style: dashed;
+        position: fixed;
 
-p {
-    font-size: 10px;
-}
+        font-size: 10px;
 
-.instagram{
-    font-size: 12px;
-}
+        /* resumen valido border: 3px solid red;*/
 
-.facebook{
-    font-size: 10px;
-}
-
-.Twitter{
-    font-size: 10px;
-}
-
-.redes-tarjeta{
-    font-size: 10px;
-}
-
-.titulo{
-    font-size: 15px;
-}
-
-h2{
-    font-size: 13px;
-}
-
-.productos{
-    overflow-y: scroll;
-}
-.pie {
-    font-size: 10px;
-    text-align: right;
-    background-color: rgba(218, 131, 247, 0.815);
-}
-
-.caja {
-    width: 100px;
-    height: 50px;
-    color: black;
-    background: radial-gradient(red, yellow);
-    border-color: rgb(0, 0, 0);
-    border-width: 3px;
-    border-style: dashed;
-
-    font-size: 20px;
-    text-align: center;
-    /* resumen valido border: 3px solid red;*/
-    margin-top: 50px;
-    transform: translate(0px)
-    
-}
-
-.caja2 {
-    background-color: rgb(196, 148, 232);
-    background: linear-gradient(red, blue);
-
-    width: 100px;
-    height: 50px;
-    color: black;
-
-    border-color: rgb(0, 0, 0);
-    border-width: 3px;
-    border-style: dashed;
-
-    font-size: 20px;
-
-    display: inline-block;
-    text-align: center;
-
-    /* resumen valido border: 3px solid red;*/
-    margin-top: 50px;
-}
-
-.caja__publicidad {
-    background-color: rgb(218, 184, 244);
-    color: aliceblue;
-    width: 100px;
-    height: 50px;
-
-    border-color: rgb(0, 0, 0);
-    border-width: 3px;
-    border-style: dashed;
-    position: fixed;
-
-    font-size: 10px;
-
-    /* resumen valido border: 3px solid red;*/
-
-    display: flex;
-    justify-content: flex-end;
-    transform: translate(200px, -700px)
-}
+        display: flex;
+        justify-content: flex-end;
+        transform: translate(200px, -700px)
+    }
 }
