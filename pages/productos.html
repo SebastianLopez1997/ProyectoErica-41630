@@ -17,13 +17,39 @@
         <h1 class="titulo">PRODUCTOS</h1>
 
         <nav class="reparar">
-            <ul class="barra">
-                <li> <a href="../index.html" class="link"> Inicio</a> </li>
-                <li> <a href="../pages/productos.html" class="link"> Productos</a> </li>
-                <li> <a href="../pages/redes.html" class="link"> Redes sociales</a></li>
-                <li> <a href="../pages/maps.html" class="link"> Donde encontrarnos</a></li>
-                <li> <a href="../pages/terminos.html" class="link"> Terminos y condiciones</a> </li>
-            </ul>
+            <div class="container-fluid">
+                <nav class="navbar navbar-dark bg-dark navbar navbar-expand-lg bg-info ">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">MENU</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse  " id="navbarNav">
+                            <ul class="navbar-nav mx-auto fs-5 text mx-auto ">
+                                <li class="nav-item border border-danger">
+                                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                                </li>
+                                <li class="nav-item border border-danger">
+                                    <a class="nav-link" href="./productos.html">Productos</a>
+                                </li>
+                                <li class="nav-item border border-danger">
+                                    <a class="nav-link" href="./redes.html">Redes Sociales</a>
+                                </li>
+                                <li class="nav-item border border-danger">
+                                    <a class="nav-link" href="./maps.html">Donde encontrarnos</a>
+                                </li>
+                                <li class="nav-item border border-danger">
+                                    <a class="nav-link" href="./terminos.html">Terminos y condiciones</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+
 
         </nav>
         <hr>
@@ -32,7 +58,7 @@
         <nav class="prod">
             <fieldset>
 
-                <ol class="productos">
+                <ol class="container-fluid productos">
 
                     <li>Mates</li>
                     <li>Set Matero</li>
@@ -49,128 +75,114 @@
             dolar debido a que los materiales utilizados para la produccion de los mismos son importados.</p>
     </header>
     <hr>
-    <main class="contenedor-productos">
-        
-        <div>
-            <article class="tarjeta">
-                <h2 class="tarjeta__titulo">Mates</h2>
+    <main class="container-fluid">
 
-                <img src="../imagenes/setMate1.jpeg" alt="Imagen set matero" class="tarjeta__imagen" height="250px">
-                <p class="tarjeta__descripcion">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint
-                    consectetur
-                    odit,
-                    corporis dolores, deserunt
-                    vero molestiae commodi eum ipsa, autem magnam praesentium repellendus dolorum dolorem quae sunt
-                    dolore
-                    officiis placeat!</p>
-                <p><button class="tarjeta__boton">Comprar</button></p>
-            </article>
+        <div class="container text-center">
+            <div class="row row-cols-4 ">
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../imagenes/setMate1.jpeg" class="card-img-top img-fluid img-thumbnail"
+                            alt="imagen mate">
+                        <div class="card-body">
+                            <p class="card-text"> Mates de excelente calidad</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../imagenes/JarroTermico1.jpeg" class="card-img-top img-fluid img-thumbnail"
+                            alt="imagen jarro termico">
+                        <div class="card-body">
+                            <p class="card-text">Jarro termico</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../imagenes/Remera niño.jpeg" class="card-img-top img-fluid img-thumbnail"
+                            alt="Imagen Remera niño">
+                        <div class="card-body">
+                            <p class="card-text"> </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../imagenes/Almohada.jpeg" class="card-img-top img-thumbnail" alt="Imagen Almohada">
+                        <div class="card-body">
+                            <p class="card-text"> Almohadon personalizado</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../imagenes/Bolsa.jpeg" class="card-img-top img-thumbnail"
+                            alt="Imagen bolsa souvenir">
+                        <div class="card-body">
+                            <p class="card-text">Bolsa Souvenir cumpleaños</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12c ol-md-6 col-lg-4 col-xl-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../imagenes/BoddyBB.jpeg" class="card-img-top img-thumbnail" alt="Imagen Boddy bebe">
+                        <div class="card-body">
+                            <p class="card-text">Boddy personalizado para bebe</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                    <div class="card" style="width: 18rem;">
+                        <picture>
+                            <img src="../imagenes/ImagenTazas.jpg" class=" card-img-top img-thumbnail mx-auto"
+                                alt="Imagen taza">
+                        </picture>
+                        <div class="card-body">
+                            <p class="card-text">Taza personalizada</p>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                    <div class="card" style="width: 18rem;">
+                        <picture>
+                            <img src="../imagenes/VasoAntiVUELco.jpeg" class=" card-img-top img-thumbnail mx-auto"
+                                alt="Imagen vaso antihuelco">
+                        </picture>
+                        <div class="card-body">
+                            <p class="card-text"> Vaso antihuelco</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <hr>
-        <div>
-            <article class="tarjeta tarjeta--destacado">
-                <h2 class="tarjeta__titulo">Set Matero</h2>
 
-                <img src="../imagenes/setMate1.jpeg" alt="Imagen set matero" height="250px">
-                <img src="../imagenes/SetMate2.jpeg" alt="Imagen set matero" height="250px">
-                <p class="tarjeta__descripcion">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint
-                    consectetur
-                    odit,
-                    corporis dolores, deserunt
-                    vero molestiae commodi eum ipsa, autem magnam praesentium repellendus dolorum dolorem quae sunt
-                    dolore
-                    officiis placeat!</p>
-                <p><button class="tarjeta__boton">Comprar</button></p>
-            </article>
-        </div>
-
-        <hr>
-        <div>
-            <article class="tarjeta">
-                <h2>Jarro Termico</h2>
-
-                <img src="../imagenes/JarroTermico1.jpeg" alt="Imagen Jarro termico" height="250px">
-                <img src="../imagenes/JarroTermico2.jpeg" alt="Imagen Jarro termico" height="250px">
-                <p class="tarjeta__descripcion">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint
-                    consectetur
-                    odit,
-                    corporis dolores, deserunt
-                    vero molestiae commodi eum ipsa, autem magnam praesentium repellendus dolorum dolorem quae sunt
-                    dolore
-                    officiis placeat!</p>
-                <p><button class="tarjeta__boton">Comprar</button></p>
-            </article>
-        </div>
-        <hr>
-        <div>
-            <article class="tarjeta">
-                <h2>Taza ceramica importada</h2>
-                <p class="tarjeta__descripcion">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint
-                    consectetur
-                    odit,
-                    corporis dolores, deserunt
-                    vero molestiae commodi eum ipsa, autem magnam praesentium repellendus dolorum dolorem quae sunt
-                    dolore
-                    officiis placeat!</p>
-                <p><button class="tarjeta__boton">Comprar</button></p>
-            </article>
-        </div>
-        <hr>
-        <div>
-            <article class="tarjeta">
-                <h2>Taza polimero</h2>
-                <p class="tarjeta__descripcion">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint
-                    consectetur
-                    odit,
-                    corporis dolores, deserunt
-                    vero molestiae commodi eum ipsa, autem magnam praesentium repellendus dolorum dolorem quae sunt
-                    dolore
-                    officiis placeat!</p>
-                <p><button class="tarjeta__boton">Comprar</button></p>
-            </article>
-        </div>
-        <hr>
-        <div>
-            <article class="tarjeta">
-                <h2>Remera Niño</h2>
-                <img src="../imagenes/Remera niño.jpeg" alt="Remera niño" height="250px">
-                <p class="tarjeta__descripcion">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint
-                    consectetur
-                    odit,
-                    corporis dolores, deserunt
-                    vero molestiae commodi eum ipsa, autem magnam praesentium repellendus dolorum dolorem quae sunt
-                    dolore
-                    officiis placeat!</p>
-                <p><button class="tarjeta__boton">Comprar</button></p>
-            </article>
-        </div>
-    
     </main>
-    <div class="caja__publicidad">Soy una publicidad molesta</div>
+
     <footer>
-        <nav class="navbar navbar-expand-lg bg-info">
-            <div class="container-fluid ">
-                <a class="navbar-brand" href="#">Navbar</a>
+
+        <nav class="navbar navbar-expand-lg bg-info ">
+            <div class="container-fluid">
+                <a class="ms-5 navbar-brand" href="#">MENU</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse " id="navbarNav">
-                    <ul class="navbar-nav mx-auto fs-5 text mx-auto ">
-                        <li class="nav-item border border-danger">
-                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                    <ul class="navbar-nav ms-auto me-5">
+                        <li class="nav-item">
+                            <a class="btn nav-link active" aria-current="page" href="../index.html">Inicio</a>
                         </li>
-                        <li class="nav-item border border-danger">
-                            <a class="nav-link" href="./productos.html">Productos</a>
+                        <li class="nav-item ">
+                            <a class="btn nav-link" href="./productos.html">Productos</a>
                         </li>
-                        <li class="nav-item border border-danger">
-                            <a class="nav-link" href="./redes.html">Redes Sociales</a>
+                        <li class="nav-item ">
+                            <a class="btn nav-link" href="./redes.html">Redes Sociales</a>
                         </li>
-                        <li class="nav-item border border-danger">
+                        <li class="nav-item ">
                             <a class="nav-link" href="./maps.html">Donde encontrarnos</a>
                         </li>
-                        <li class="nav-item border border-danger">
-                            <a class="nav-link" href="./terminos.html">Terminos y condiciones</a>
+                        <li class="nav-item ">
+                            <a class="btn nav-link" href="./terminos.html">Terminos y condiciones</a>
                         </li>
                     </ul>
                 </div>

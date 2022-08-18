@@ -5,36 +5,7 @@ html {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-}
 
-
-
-.tarjeta {
-    font-size: 1rem;
-    background-color: rgb(235, 190, 239);
-    height: auto;
-    grid-area: auto;
-    border-style: dashed;
-    border-color: rgb(174, 79, 241);
-    overflow: auto;
-}
-
-.tarjeta__descripcion {
-    font-size: 1rem;
-}
-
-.tarjeta--destacado {
-    font-size: 2rem;
-    background-color: rgb(233, 206, 244);
-}
-
-.tarjeta__titulo--destacado {
-    font-size: 2rem;
-    background-color: rgb(43, 174, 226);
-}
 
 .caja {
     width: 300px;
@@ -55,7 +26,6 @@ html {
 
 .caja:hover {
     transform: scale(2);
-
 }
 
 
@@ -175,11 +145,12 @@ ul li {
     border-color: rgb(199, 151, 245);
 }
 
-.contenedor-productos{
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: auto;
-    background-color: black;
+.altura {
+    height: 100%;
+}
+
+.card-body {
+    background-color: rgb(206, 167, 244);
 }
 
 .titulo {
@@ -331,45 +302,43 @@ ul li {
         border-style: dashed;
         border-color: rgb(199, 151, 245);
 
-<<<<<<< HEAD
+        <<<<<<< HEAD
     }
-=======
-.productos {
-    font-size: 15px;
-    grid-area: span;
-    
-    justify-content: space-evenly;
-    align-items: center;
-    height: 25px;
-    border-style: dashed;
-    border-color: rgb(199, 151, 245);
-    gap: 80px;
-    
-}
->>>>>>> 362042879b70103db58927f742e1193823330119
 
-    .pie {
+    =======.productos {
+        font-size: 15px;
+        grid-area: span;
+
+        justify-content: space-evenly;
+        align-items: center;
+        height: 25px;
+        border-style: dashed;
+        border-color: rgb(199, 151, 245);
+        gap: 80px;
+
+    }
+
+    >>>>>>>362042879b70103db58927f742e1193823330119 .pie {
         font-size: 16px;
     }
 
-<<<<<<< HEAD
-    .foto-logo {
+    <<<<<<< HEAD .foto-logo {
         justify-content: start;
         height: 120px;
         align-items: initial;
-=======
-.tarjeta {
-    font-size: 2rem;
-    background-color: rgb(235, 190, 239);
-    grid-area: auto;
-    height: 200px;
-    width: 100vh;
-    border-style: dashed;
-    border-color: rgb(174, 79, 241);
-    overflow: auto;
-}
->>>>>>> 362042879b70103db58927f742e1193823330119
 
+        =======.tarjeta {
+            font-size: 2rem;
+            background-color: rgb(235, 190, 239);
+            grid-area: auto;
+            height: 200px;
+            width: 100vh;
+            border-style: dashed;
+            border-color: rgb(174, 79, 241);
+            overflow: auto;
+        }
+
+        >>>>>>>362042879b70103db58927f742e1193823330119
     }
 
     .productos {
