@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="../style.css">
     <title>Document</title>
 </head>
@@ -12,24 +14,50 @@
 <body class="body">
     <header>
         <h1 class="titulo">Donde estamos</h1>
-        <nav>
-            <ul class="barra">
-                <li> <a href="../index.html" class="link"> Inicio</a> </li>
-                <li> <a href="../pages/productos.html" class="link"> Productos</a> </li>
-                <li> <a href="../pages/redes.html" class="link"> Redes sociales</a></li>
-                <li> <a href="../pages/maps.html" class="link"> Donde encontrarnos</a></li>
-                <li> <a href="../pages/terminos.html" class="link"> Terminos y condiciones</a> </li>
-            </ul>
+        <div class="container-fluid">
+            <nav class="navbar navbar-dark bg-dark navbar navbar-expand-lg bg-info ">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">MENU</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav1"
+                        aria-controls="navbarNav1" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse  " id="navbarNav1">
+                        <ul class="navbar-nav mx-auto fs-5 text mx-auto ">
+                            <li class="nav-item border border-danger">
+                                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item border border-danger">
+                                <a class="nav-link" href="./productos.html">Productos</a>
+                            </li>
+                            <li class="nav-item border border-danger">
+                                <a class="nav-link" href="./redes.html">Redes Sociales</a>
+                            </li>
+                            <li class="nav-item border border-danger">
+                                <a class="nav-link" href="./maps.html">Donde encontrarnos</a>
+                            </li>
+                            <li class="nav-item border border-danger">
+                                <a class="nav-link" href="./terminos.html">Terminos y condiciones</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
 
-        </nav>
-        <nav class="reparar"></nav>
     </header>
     <main>
         <article>
-            <div class="caja2">futuro mapa</div>
-            <p>Aun falta aprender contenido para amplicar y podes poner un mapa con la ubicaciones</p>
+            <div class="caja2">Cajita Loca</div>
+            <div>
+                <p>Nos pueden localizar en esta zona y si estas dentro de ella el envio es Gratis!</p>
+            </div>
             <hr>
-            <p>Lugar para agregar un grid con el mapa mas informacion de donde encontrarnos</p>
+            <div>
+                <article class="container-fluid">
+                    <img class="mapa" src="../imagenes/ImagenMapa2.jpeg" alt="Imagen-mapa">
+                </article>
+            </div>
             <hr>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa quaerat officiis odio magnam quae
                 accusamus
@@ -37,12 +65,39 @@
                 esse.</p>
         </article>
     </main>
-    <div class="caja__publicidad">Soy una publicidad molesta</div>
-    <footer>
-        <div>
-            <p class="pie">Created by sebastian.lopez.mdq@gmail.com </p>
-        </div>
 
+    <footer>
+        <nav class="navbar navbar-expand-lg bg-info ">
+            <div class="container-fluid">
+                <a class="ms-5 navbar-brand" href="#">MENU</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarNav">
+                    <ul class="navbar-nav ms-auto me-5">
+                        <li class="nav-item">
+                            <a class="btn nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="btn nav-link" href="./productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="btn nav-link" href="./redes.html">Redes Sociales</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="./maps.html">Donde encontrarnos</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="btn nav-link" href="./terminos.html">Terminos y condiciones</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+            crossorigin="anonymous"></script>
     </footer>
 </body>
 

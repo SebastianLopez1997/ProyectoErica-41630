@@ -181,8 +181,6 @@ ul li {
     border-width: 2px;
     border-style: dashed;
     border-color: rgb(199, 151, 245);
-
-
 }
 
 .prod {
@@ -200,62 +198,20 @@ ul li {
     height: 120px;
     grid-template-areas: "facebook instagram twitter whatsapp";
     column-gap: 20px;
-
 }
 
-.redes .facebook {
-    background-image: url(./imagenes/facebook.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
 
+.card:hover {
+    transform: scale(1.2);
 }
-
-.redes .facebook:hover {
-    transform: scale(1.5);
-}
-
-.redes .instagram {
-    background-image: url(./imagenes/intaMejorado.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-
-}
-
-.redes .instagram:hover {
-    transform: scale(1.5);
-}
-
-.redes .Twitter {
-    background-image: url(./imagenes/twitter.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-}
-
-.redes .Twitter:hover {
-    transform: scale(1.5);
-}
-
-.redes .redes-tarjeta {
-    background-image: url(./imagenes/wpmejorado.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-}
-
-.redes .redes-tarjeta:hover {
-    transform: scale(1.5);
-}
-
 
 .pie {
     font-size: 20px;
     text-align: right;
+}
+
+.mapa {
+    width: 500px;
 }
 
 @media (max-width: 768px) {
@@ -352,6 +308,7 @@ ul li {
         border-style: dashed;
         border-color: rgb(199, 151, 245);
         gap: 80px;
+        overflow: scroll;
 
     }
 
@@ -489,4 +446,13 @@ ul li {
         justify-content: flex-end;
         transform: translate(200px, -700px)
     }
+
+    .mapa {
+        width: 250px;
+    }
+
+    .productos {
+        font-size: 10px;
+    }
+
 }
