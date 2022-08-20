@@ -5,7 +5,56 @@ html {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+article div>p {
+    font-size: 2rem;
+}
 
+li:first-child {
+    background-color: rgba(255, 0, 0, 0.422);
+    font-size: 2rem;
+}
+
+li:last-child {
+    background-color: rgba(52, 22, 247, 0.315);
+    font-size: 2rem;
+}
+
+li:nth-child(2) {
+    background-color: rgba(95, 197, 223, 0.438);
+    font-size: 2rem;
+}
+
+li:nth-child(3) {
+    background-color: rgba(95, 197, 223, 0.438);
+    font-size: 2rem;
+}
+
+li::first-letter {
+    font-size: 2rem;
+    color: blue;
+}
+
+p::first-letter {
+    font-size: 2rem;
+}
+
+::marker {
+    background-color: blueviolet;
+}
+
+
+
+.activo {
+    background-color: rgba(125, 68, 232, 0.312);
+}
+
+input:focus {
+    border: 6px solid red;
+}
+
+.activo:active {
+    background-color: brown;
+}
 
 .caja {
     width: 300px;
@@ -21,14 +70,18 @@ html {
     text-align: center;
     /* resumen valido border: 3px solid red;*/
     margin-top: 50px;
-    transform: translate(500px) transition-duration: 2s;
+    margin-left: 25%;
+    transform: translate(500px);
+    transition-duration: 0.5s;
 }
 
 .caja:hover {
     transform: scale(2);
 }
 
-
+.texto {
+    font-size: 40px;
+}
 
 .caja2 {
     background-color: rgb(196, 148, 232);
@@ -49,7 +102,12 @@ html {
 
 
     /* resumen valido border: 3px solid red;*/
-    margin-top: 50px;
+    margin-top: 150px;
+    margin-left: 25%;
+}
+
+.caja2:hover {
+    scale: 1.5;
 }
 
 
@@ -75,7 +133,7 @@ html {
 }
 
 .caja__publicidad:hover {
-    transform: scale(3);
+    transform: scale(1.2);
     background-color: aqua;
 }
 
@@ -116,15 +174,15 @@ html {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 70px;
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 50px;
 }
 
 p {
-    font-size: 20px;
+    font-size: 30px;
 }
 
 form {
@@ -171,20 +229,23 @@ ul li {
 
 .productos {
     font-size: 23px;
+
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 
     justify-content: space-evenly;
     align-items: center;
-    height: 32px;
     border-width: 2px;
     border-style: dashed;
     border-color: rgb(199, 151, 245);
+    background-color: rgba(127, 255, 212, 0.355);
 }
 
 .prod {
     padding: 10px;
+    height: 50px;
+
 }
 
 .redes {
@@ -218,15 +279,23 @@ ul li {
 
 
     h1 {
-        font-size: 22px;
+        font-size: 40px;
     }
 
     h2 {
-        font-size: 20px;
+        font-size: 30px;
     }
 
     p {
-        font-size: 18px;
+        font-size: 20px;
+    }
+
+    .texto {
+        font-size: 20px;
+    }
+
+    .titulo {
+        font-size: 45px;
     }
 
     .barra {
@@ -261,22 +330,6 @@ ul li {
         <<<<<<< HEAD
     }
 
-    =======.productos {
-        font-size: 15px;
-        grid-area: span;
-
-        justify-content: space-evenly;
-        align-items: center;
-        height: 25px;
-        border-style: dashed;
-        border-color: rgb(199, 151, 245);
-        gap: 80px;
-
-    }
-
-    >>>>>>>362042879b70103db58927f742e1193823330119 .pie {
-        font-size: 16px;
-    }
 
     <<<<<<< HEAD .foto-logo {
         justify-content: start;
@@ -304,16 +357,15 @@ ul li {
         flex-wrap: wrap;
         justify-content: space-evenly;
         align-items: center;
-        height: 25px;
+        height: 40px;
         border-style: dashed;
         border-color: rgb(199, 151, 245);
         gap: 80px;
         overflow: scroll;
-
     }
 
     p {
-        font-size: 15px;
+        font-size: 17px;
     }
 
     .tarjeta {
@@ -352,32 +404,36 @@ ul li {
         font-size: 10px;
     }
 
+    .texto {
+        font-size: 16px;
+    }
+
     p {
-        font-size: 10px;
+        font-size: 13px;
     }
 
     .instagram {
-        font-size: 12px;
+        font-size: 13px;
     }
 
     .facebook {
-        font-size: 10px;
+        font-size: 13px;
     }
 
     .Twitter {
-        font-size: 10px;
+        font-size: 13px;
     }
 
     .redes-tarjeta {
-        font-size: 10px;
+        font-size: 13px;
     }
 
     .titulo {
-        font-size: 15px;
+        font-size: 40px;
     }
 
     h2 {
-        font-size: 13px;
+        font-size: 15px;
     }
 
     .productos {
@@ -453,6 +509,10 @@ ul li {
 
     .productos {
         font-size: 10px;
+    }
+
+    article div>p {
+        font-size: 1rem;
     }
 
 }
