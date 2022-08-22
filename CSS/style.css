@@ -29,6 +29,11 @@ li:nth-child(3) {
     font-size: 2rem;
 }
 
+li:nth-child(4) {
+    background-color: rgba(95, 197, 223, 0.438);
+    font-size: 2rem;
+}
+
 li::first-letter {
     font-size: 2rem;
     color: blue;
@@ -42,7 +47,9 @@ p::first-letter {
     background-color: blueviolet;
 }
 
-
+.espacio{
+    gap: 55px;
+}
 
 .activo {
     background-color: rgba(125, 68, 232, 0.312);
@@ -65,18 +72,20 @@ input:focus {
     border-width: 3px;
     border-style: dashed;
     border-radius: 35%;
-
     font-size: 2rem;
     text-align: center;
     /* resumen valido border: 3px solid red;*/
     margin-top: 50px;
     margin-left: 25%;
-    transform: translate(500px);
     transition-duration: 0.5s;
 }
 
 .caja:hover {
-    transform: scale(2);
+    transform: scale(1.5);
+}
+
+.img-menu {
+    height: 55px;
 }
 
 .texto {
@@ -99,7 +108,6 @@ input:focus {
 
     display: inline-block;
     text-align: center;
-
 
     /* resumen valido border: 3px solid red;*/
     margin-top: 150px;
@@ -138,8 +146,6 @@ input:focus {
 }
 
 .caja__terminos {
-
-
     width: vw;
     height: 120px;
     color: black;
@@ -155,7 +161,7 @@ input:focus {
 }
 
 .body {
-    background-image: url(./imagenes/Fondo.jpeg);
+    background-image: url(../imagenes/Fondo.jpeg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -275,6 +281,17 @@ ul li {
     width: 500px;
 }
 
+.fote {
+    height: 70px;
+    background-color: rgba(232, 213, 249, 0.497);
+    text-align: right;
+}
+
+.fote p {
+    font-size: 20px;
+}
+
+
 @media (max-width: 768px) {
 
 
@@ -317,19 +334,6 @@ ul li {
     .link {
         font-size: 19px;
     }
-
-
-    .contenedor-celular {
-
-        display: grid;
-        height: 100px;
-
-        border-style: dashed;
-        border-color: rgb(199, 151, 245);
-
-        <<<<<<< HEAD
-    }
-
 
     <<<<<<< HEAD .foto-logo {
         justify-content: start;
@@ -398,6 +402,10 @@ ul li {
 
 }
 
+.fote p {
+    font-size: 13px;
+}
+
 @media (max-width: 476px) {
 
     .link {
@@ -454,12 +462,12 @@ ul li {
         border-color: rgb(0, 0, 0);
         border-width: 3px;
         border-style: dashed;
-
-        font-size: 20px;
+        justify-content: left;
+        font-size: 15px;
         text-align: center;
         /* resumen valido border: 3px solid red;*/
         margin-top: 50px;
-        transform: translate(0px)
+
     }
 
     .caja2 {
@@ -513,6 +521,10 @@ ul li {
 
     article div>p {
         font-size: 1rem;
+    }
+
+    .fote p {
+        font-size: 10px;
     }
 
 }
