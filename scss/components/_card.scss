@@ -1,0 +1,297 @@
+.caja {
+    width: 300px;
+    height: 100px;
+    color: black;
+    background: radial-gradient(red, yellow);
+    border-color: rgb(0, 0, 0);
+    border-width: 3px;
+    border-style: dashed;
+    border-radius: 35%;
+    font-size: 2rem;
+    text-align: center;
+    /* resumen valido border: 3px solid red;*/
+    margin-top: 50px;
+    margin-left: 25%;
+    transition-duration: 0.5s;
+
+    &:hover {
+        transform: scale(1.5);
+    }
+}
+.caja2 {
+    background-color: rgb(196, 148, 232);
+    background: linear-gradient(red, blue);
+
+    width: 300px;
+    height: 100px;
+    color: black;
+
+    border-color: rgb(0, 0, 0);
+    border-width: 3px;
+    border-style: dashed;
+    border-radius: 35%;
+    font-size: 2rem;
+
+    display: inline-block;
+    text-align: center;
+
+    /* resumen valido border: 3px solid red;*/
+    margin-top: 150px;
+    margin-left: 25%;
+
+    &:hover {
+        scale: 1.5;
+    }
+}
+
+.caja__publicidad {
+    background-color: rgb(218, 184, 244);
+    color: rgb(6, 6, 6);
+    width: 300px;
+    height: 100px;
+
+    border-color: rgb(0, 0, 0);
+    border-width: 3px;
+    border-style: dashed;
+    position: fixed;
+
+    font-size: 2rem;
+    border-radius: 45px;
+    text-align: center;
+
+    /* resumen valido border: 3px solid red;*/
+
+    display: flex;
+    justify-content: flex-end;
+
+    &:hover {
+        transform: scale(1.2);
+        background-color: aqua;
+    }
+}
+
+.caja__terminos {
+    width: vw;
+    height: 120px;
+    color: black;
+
+    border-color: rgb(0, 0, 0);
+    border-width: 3px;
+    border-style: dashed;
+
+    font-size: 27.5px;
+    overflow-x: scroll;
+    /* resumen valido border: 3px solid red;*/
+    margin-top: 50px;
+}
+
+.prod {
+    padding: 10px;
+    height: 50px;
+
+}
+
+.productos {
+    font-size: 23px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: space-evenly;
+    align-items: center;
+    border-width: 2px;
+    border-style: dashed;
+    border-color: rgb(199, 151, 245);
+    background-color: rgba(127, 255, 212, 0.355);
+}
+
+.card:hover {
+    transform: scale(1.2);
+}
+
+.card-body {
+    background-color: rgb(206, 167, 244);
+}
+
+.redes {
+    font-size: 30px;
+    text-align: center;
+
+    display: grid;
+
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-rows: 100%;
+    height: 120px;
+    grid-template-areas: "facebook instagram twitter whatsapp";
+    column-gap: 20px;
+}
+
+.mapa {
+    width: 500px;
+}
+
+@media (max-width: 1024px){
+    .productos {
+        font-size: 23px;
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        justify-content: space-evenly;
+        align-items: center;
+        border-width: 2px;
+        border-style: dashed;
+        border-color: rgb(199, 151, 245);
+        background-color: rgba(127, 255, 212, 0.355);
+    }
+
+    .prod {
+        padding: 10px;
+        height: 150px;
+
+    }
+}
+
+@media (max-width: 768px){
+    .productos {
+        font-size: 15px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 50px;
+        border-style: dashed;
+        border-color: rgb(199, 151, 245);
+        gap: 80px;
+        overflow: scroll;
+    }
+
+    .prod {
+        padding: 10px;
+        height: 100px;
+    }
+
+    .tarjeta {
+        font-size: 2rem;
+        background-color: rgb(235, 190, 239);
+        height: 200px;
+        width: 100vh;
+        border-style: dashed;
+        border-color: rgb(174, 79, 241);
+        overflow: auto;
+    }
+
+    .tarjeta__descripcion {
+        font-size: 15px;
+    }
+
+    .tarjeta--destacado {
+        font-size: 2rem;
+        background-color: rgb(233, 206, 244);
+    }
+
+    .tarjeta__titulo--destacado {
+        font-size: 2rem;
+        background-color: rgb(43, 174, 226);
+    }
+
+    .caja__terminos {
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width: 476px){
+    .instagram {
+        font-size: 13px;
+    }
+
+    .facebook {
+        font-size: 13px;
+    }
+
+    .Twitter {
+        font-size: 13px;
+    }
+
+    .redes-tarjeta {
+        font-size: 13px;
+    }
+    .productos {
+        overflow-y: scroll;
+    }
+
+    .pie {
+        font-size: 10px;
+        text-align: right;
+        background-color: rgba(218, 131, 247, 0.815);
+    }
+
+    .caja {
+        width: 100px;
+        height: 50px;
+        color: black;
+        background: radial-gradient(red, yellow);
+        border-color: rgb(0, 0, 0);
+        border-width: 3px;
+        border-style: dashed;
+        justify-content: left;
+        font-size: 15px;
+        text-align: center;
+        /* resumen valido border: 3px solid red;*/
+        margin-top: 50px;
+
+    }
+
+    .caja2 {
+        background-color: rgb(196, 148, 232);
+        background: linear-gradient(red, blue);
+
+        width: 100px;
+        height: 50px;
+        color: black;
+
+        border-color: rgb(0, 0, 0);
+        border-width: 3px;
+        border-style: dashed;
+
+        font-size: 20px;
+
+        display: inline-block;
+        text-align: center;
+
+        /* resumen valido border: 3px solid red;*/
+        margin-top: 50px;
+    }
+
+    .caja__publicidad {
+        background-color: rgb(218, 184, 244);
+        color: aliceblue;
+        width: 100px;
+        height: 50px;
+
+        border-color: rgb(0, 0, 0);
+        border-width: 3px;
+        border-style: dashed;
+        position: fixed;
+
+        font-size: 10px;
+
+        /* resumen valido border: 3px solid red;*/
+
+        display: flex;
+        justify-content: flex-end;
+        transform: translate(200px, -700px)
+    }
+
+    .mapa {
+        width: 250px;
+    }
+
+    .productos {
+        font-size: 10px;
+    }
+}

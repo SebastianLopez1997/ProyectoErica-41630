@@ -1,0 +1,26 @@
+.pie {
+    font-size: 20px;
+    text-align: right;
+}
+
+.fote {
+    height: 70px;
+    background-color: rgba(232, 213, 249, 0.497);
+    text-align: right;
+}
+
+.fote p {
+    font-size: 20px;
+}
+
+@media (max-width: 768px){
+    .fote p {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 476px){
+    .fote p {
+        font-size: 10px;
+    }
+}

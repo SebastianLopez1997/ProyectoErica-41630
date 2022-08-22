@@ -1,0 +1,160 @@
+html {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+article div>p {
+    font-size: 2rem;
+}
+
+li:first-child {
+    background-color: rgba(255, 0, 0, 0.422);
+    font-size: 2rem;
+}
+
+li:last-child {
+    background-color: rgba(52, 22, 247, 0.315);
+    font-size: 2rem;
+}
+
+li:nth-child(2) {
+    background-color: rgba(95, 197, 223, 0.438);
+    font-size: 2rem;
+}
+
+li:nth-child(3) {
+    background-color: rgba(95, 197, 223, 0.438);
+    font-size: 2rem;
+}
+
+li:nth-child(4) {
+    background-color: rgba(95, 197, 223, 0.438);
+    font-size: 2rem;
+}
+
+li::first-letter {
+    font-size: 2rem;
+    color: blue;
+}
+
+p::first-letter {
+    font-size: 2rem;
+}
+
+::marker {
+    background-color: blueviolet;
+}
+
+.espacio {
+    gap: 55px;
+}
+
+.activo {
+    background-color: rgba(125, 68, 232, 0.312);
+}
+
+input:focus {
+    border: 6px solid red;
+}
+
+.activo:active {
+    background-color: brown;
+}
+
+
+
+.img-menu {
+    height: 55px;
+}
+
+
+
+.foto-logo {
+    background-image: url(./imagenes/logomejorado.png);
+    height: 50px;
+    display: flex;
+    flex-direction: wrap;
+    height: 250px;
+    margin-left: 50%;
+    background-position: center center;
+    background: fixed;
+}
+
+@media (max-width: 768px) {
+
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .texto {
+        font-size: 20px;
+    }
+
+    .titulo {
+        font-size: 45px;
+    }
+
+    .barra {
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+        justify-content: space-around;
+        border-style: none;
+        gap: 5px;
+        padding: 30px;
+    }
+
+    .reparar {
+        display: flex;
+        height: 140px;
+    }
+
+    .link {
+        font-size: 19px;
+    }
+
+    .foto-logo {
+        justify-content: start;
+        height: 120px;
+        align-items: initial;
+    }
+
+    p {
+        font-size: 17px;
+    }
+
+}
+
+@media (max-width: 476px) {
+
+    .link {
+        font-size: 10px;
+    }
+
+    .texto {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    .titulo {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+
+    article div>p {
+        font-size: 1rem;
+    }
+}
