@@ -1,0 +1,548 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Mochiy+Pop+One&display=swap');
+
+html {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+article div>p {
+    font-size: 2rem;
+}
+
+li:first-child {
+    background-color: rgba(255, 0, 0, 0.422);
+    font-size: 2rem;
+}
+
+li:last-child {
+    background-color: rgba(52, 22, 247, 0.315);
+    font-size: 2rem;
+}
+
+li:nth-child(2) {
+    background-color: rgba(95, 197, 223, 0.438);
+    font-size: 2rem;
+}
+
+li:nth-child(3) {
+    background-color: rgba(95, 197, 223, 0.438);
+    font-size: 2rem;
+}
+
+li:nth-child(4) {
+    background-color: rgba(95, 197, 223, 0.438);
+    font-size: 2rem;
+}
+
+li::first-letter {
+    font-size: 2rem;
+    color: blue;
+}
+
+p::first-letter {
+    font-size: 2rem;
+}
+
+::marker {
+    background-color: blueviolet;
+}
+
+.espacio {
+    gap: 55px;
+}
+
+.activo {
+    background-color: rgba(125, 68, 232, 0.312);
+}
+
+input:focus {
+    border: 6px solid red;
+}
+
+.activo:active {
+    background-color: brown;
+}
+
+.caja {
+    width: 300px;
+    height: 100px;
+    color: black;
+    background: radial-gradient(red, yellow);
+    border-color: rgb(0, 0, 0);
+    border-width: 3px;
+    border-style: dashed;
+    border-radius: 35%;
+    font-size: 2rem;
+    text-align: center;
+    /* resumen valido border: 3px solid red;*/
+    margin-top: 50px;
+    margin-left: 25%;
+    transition-duration: 0.5s;
+}
+
+.caja:hover {
+    transform: scale(1.5);
+}
+
+.img-menu {
+    height: 55px;
+}
+
+
+
+.texto {
+    font-size: 40px;
+}
+
+.caja2 {
+    background-color: rgb(196, 148, 232);
+    background: linear-gradient(red, blue);
+
+    width: 300px;
+    height: 100px;
+    color: black;
+
+    border-color: rgb(0, 0, 0);
+    border-width: 3px;
+    border-style: dashed;
+    border-radius: 35%;
+    font-size: 2rem;
+
+    display: inline-block;
+    text-align: center;
+
+    /* resumen valido border: 3px solid red;*/
+    margin-top: 150px;
+    margin-left: 25%;
+}
+
+.caja2:hover {
+    scale: 1.5;
+}
+
+
+.caja__publicidad {
+    background-color: rgb(218, 184, 244);
+    color: rgb(6, 6, 6);
+    width: 300px;
+    height: 100px;
+
+    border-color: rgb(0, 0, 0);
+    border-width: 3px;
+    border-style: dashed;
+    position: fixed;
+
+    font-size: 2rem;
+    border-radius: 45px;
+    text-align: center;
+
+    /* resumen valido border: 3px solid red;*/
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.caja__publicidad:hover {
+    transform: scale(1.2);
+    background-color: aqua;
+}
+
+.caja__terminos {
+    width: vw;
+    height: 120px;
+    color: black;
+
+    border-color: rgb(0, 0, 0);
+    border-width: 3px;
+    border-style: dashed;
+
+    font-size: 27.5px;
+    overflow-x: scroll;
+    /* resumen valido border: 3px solid red;*/
+    margin-top: 50px;
+}
+
+.body {
+    background-image: url(../imagenes/Fondo.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+}
+
+.link {
+    font-size: 21px;
+    height: 20px;
+    white-space: 25px;
+}
+
+.link:hover {
+    background-color: rgb(203, 24, 248);
+
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 30px;
+}
+
+form {
+    font-size: 25px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+.barra {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 30px;
+    border-style: dashed;
+    border-color: rgb(199, 151, 245);
+}
+
+.altura {
+    height: 100%;
+}
+
+.card-body {
+    background-color: rgb(206, 167, 244);
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+}
+
+.foto-logo {
+    background-image: url(./imagenes/logomejorado.png);
+    height: 50px;
+    display: flex;
+    flex-direction: wrap;
+    height: 250px;
+    margin-left: 50%;
+    background-position: center center;
+    background: fixed;
+}
+
+.productos {
+    font-size: 23px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: space-evenly;
+    align-items: center;
+    border-width: 2px;
+    border-style: dashed;
+    border-color: rgb(199, 151, 245);
+    background-color: rgba(127, 255, 212, 0.355);
+}
+
+.prod {
+    padding: 10px;
+    height: 50px;
+
+}
+
+.redes {
+    font-size: 30px;
+    text-align: center;
+
+    display: grid;
+
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-rows: 100%;
+    height: 120px;
+    grid-template-areas: "facebook instagram twitter whatsapp";
+    column-gap: 20px;
+}
+
+
+.card:hover {
+    transform: scale(1.2);
+}
+
+.pie {
+    font-size: 20px;
+    text-align: right;
+}
+
+.mapa {
+    width: 500px;
+}
+
+.fote {
+    height: 70px;
+    background-color: rgba(232, 213, 249, 0.497);
+    text-align: right;
+}
+
+.fote p {
+    font-size: 20px;
+}
+
+@media (max-width: 1024px) {
+
+    .productos {
+        font-size: 23px;
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        justify-content: space-evenly;
+        align-items: center;
+        border-width: 2px;
+        border-style: dashed;
+        border-color: rgb(199, 151, 245);
+        background-color: rgba(127, 255, 212, 0.355);
+    }
+
+    .prod {
+        padding: 10px;
+        height: 150px;
+
+    }
+}
+
+
+@media (max-width: 768px) {
+
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .texto {
+        font-size: 20px;
+    }
+
+    .titulo {
+        font-size: 45px;
+    }
+
+    .barra {
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+        justify-content: space-around;
+        border-style: none;
+        gap: 5px;
+        padding: 30px;
+    }
+
+
+
+    .reparar {
+        display: flex;
+        height: 140px;
+    }
+
+    .link {
+        font-size: 19px;
+    }
+
+  .foto-logo {
+        justify-content: start;
+        height: 120px;
+        align-items: initial;
+    }
+
+    .productos {
+        font-size: 15px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 50px;
+        border-style: dashed;
+        border-color: rgb(199, 151, 245);
+        gap: 80px;
+        overflow: scroll;
+    }
+
+    .prod {
+        padding: 10px;
+        height: 100px;
+    }
+
+    p {
+        font-size: 17px;
+    }
+
+    .tarjeta {
+        font-size: 2rem;
+        background-color: rgb(235, 190, 239);
+        height: 200px;
+        width: 100vh;
+        border-style: dashed;
+        border-color: rgb(174, 79, 241);
+        overflow: auto;
+    }
+
+    .tarjeta__descripcion {
+        font-size: 15px;
+    }
+
+    .tarjeta--destacado {
+        font-size: 2rem;
+        background-color: rgb(233, 206, 244);
+    }
+
+    .tarjeta__titulo--destacado {
+        font-size: 2rem;
+        background-color: rgb(43, 174, 226);
+    }
+
+    .caja__terminos {
+        font-size: 18px;
+    }
+
+}
+
+.fote p {
+    font-size: 13px;
+}
+
+@media (max-width: 476px) {
+
+    .link {
+        font-size: 10px;
+    }
+
+    .texto {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    .instagram {
+        font-size: 13px;
+    }
+
+    .facebook {
+        font-size: 13px;
+    }
+
+    .Twitter {
+        font-size: 13px;
+    }
+
+    .redes-tarjeta {
+        font-size: 13px;
+    }
+
+    .titulo {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+
+    .productos {
+        overflow-y: scroll;
+    }
+
+    .pie {
+        font-size: 10px;
+        text-align: right;
+        background-color: rgba(218, 131, 247, 0.815);
+    }
+
+    .caja {
+        width: 100px;
+        height: 50px;
+        color: black;
+        background: radial-gradient(red, yellow);
+        border-color: rgb(0, 0, 0);
+        border-width: 3px;
+        border-style: dashed;
+        justify-content: left;
+        font-size: 15px;
+        text-align: center;
+        /* resumen valido border: 3px solid red;*/
+        margin-top: 50px;
+
+    }
+
+    .caja2 {
+        background-color: rgb(196, 148, 232);
+        background: linear-gradient(red, blue);
+
+        width: 100px;
+        height: 50px;
+        color: black;
+
+        border-color: rgb(0, 0, 0);
+        border-width: 3px;
+        border-style: dashed;
+
+        font-size: 20px;
+
+        display: inline-block;
+        text-align: center;
+
+        /* resumen valido border: 3px solid red;*/
+        margin-top: 50px;
+    }
+
+    .caja__publicidad {
+        background-color: rgb(218, 184, 244);
+        color: aliceblue;
+        width: 100px;
+        height: 50px;
+
+        border-color: rgb(0, 0, 0);
+        border-width: 3px;
+        border-style: dashed;
+        position: fixed;
+
+        font-size: 10px;
+
+        /* resumen valido border: 3px solid red;*/
+
+        display: flex;
+        justify-content: flex-end;
+        transform: translate(200px, -700px)
+    }
+
+    .mapa {
+        width: 250px;
+    }
+
+    .productos {
+        font-size: 10px;
+    }
+
+    article div>p {
+        font-size: 1rem;
+    }
+
+    .fote p {
+        font-size: 10px;
+    }
+
+}
