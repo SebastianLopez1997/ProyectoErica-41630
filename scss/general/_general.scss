@@ -79,6 +79,10 @@ input:focus {
     background: fixed;
 }
 
+.centrar{
+    justify-content: space-around;
+}
+
 @media (max-width: 768px) {
 
 
@@ -135,11 +139,11 @@ input:focus {
 @media (max-width: 476px) {
 
     .link {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .texto {
-        font-size: 16px;
+        font-size: 20px;
     }
 
     p {
@@ -148,6 +152,10 @@ input:focus {
 
     .titulo {
         font-size: 40px;
+    }
+
+    .subTitulo{
+        font-size: 35px;
     }
 
     h2 {
