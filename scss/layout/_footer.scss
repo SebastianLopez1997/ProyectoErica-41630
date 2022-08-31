@@ -4,22 +4,24 @@
 }
 
 .fote {
-    height: 70px;
+    height: 80px;
     background-color: rgba(232, 213, 249, 0.497);
     text-align: right;
+    display: flex;
+    justify-content: end;
 }
 
 .fote p {
-    font-size: 20px;
+    font-size: 26px;
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
     .fote p {
         font-size: 13px;
     }
 }
 
-@media (max-width: 476px){
+@media (max-width: 476px) {
     .fote p {
         font-size: 10px;
     }

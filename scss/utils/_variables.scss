@@ -8,13 +8,14 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-
+    font-family: sans-serif;
 }
 
 .link {
     font-size: 21px;
     height: 20px;
     white-space: 25px;
+
     &:hover {
         background-color: rgb(203, 24, 248);
     }

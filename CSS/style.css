@@ -9,6 +9,7 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  font-family: sans-serif;
 }
 
 .link {
@@ -95,6 +96,11 @@ ul li {
   scale: 1.5;
 }
 
+.contenedor-redes {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .caja__publicidad {
   background-color: rgb(218, 184, 244);
   color: rgb(6, 6, 6);
@@ -144,7 +150,6 @@ ul li {
   border-width: 2px;
   border-style: dashed;
   border-color: rgb(199, 151, 245);
-  background-color: rgba(127, 255, 212, 0.355);
 }
 
 .card:hover {
@@ -164,6 +169,11 @@ ul li {
   height: 120px;
   grid-template-areas: "facebook instagram twitter whatsapp";
   column-gap: 20px;
+}
+
+.arregloimgredes {
+  width: 286px;
+  height: 280px;
 }
 
 .mapa {
@@ -308,13 +318,15 @@ ul li {
 }
 
 .fote {
-  height: 70px;
+  height: 80px;
   background-color: rgba(232, 213, 249, 0.497);
   text-align: right;
+  display: flex;
+  justify-content: end;
 }
 
 .fote p {
-  font-size: 20px;
+  font-size: 26px;
 }
 
 @media (max-width: 768px) {
@@ -332,42 +344,23 @@ ul li {
   justify-content: center;
 }
 
+.centralo {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+@media (min-width: 450px) {
+  .arregloimg {
+    width: 75vh;
+  }
+}
 html {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 article div > p {
   font-size: 2rem;
-}
-
-li:first-child {
-  background-color: rgba(255, 0, 0, 0.422);
-  font-size: 2rem;
-}
-
-li:last-child {
-  background-color: rgba(52, 22, 247, 0.315);
-  font-size: 2rem;
-}
-
-li:nth-child(2) {
-  background-color: rgba(95, 197, 223, 0.438);
-  font-size: 2rem;
-}
-
-li:nth-child(3) {
-  background-color: rgba(95, 197, 223, 0.438);
-  font-size: 2rem;
-}
-
-li:nth-child(4) {
-  background-color: rgba(95, 197, 223, 0.438);
-  font-size: 2rem;
-}
-
-li::first-letter {
-  font-size: 2rem;
-  color: blue;
 }
 
 p::first-letter {
@@ -407,6 +400,10 @@ input:focus {
   margin-left: 50%;
   background-position: center center;
   background: fixed;
+}
+
+.centrar {
+  justify-content: space-around;
 }
 
 @media (max-width: 768px) {
@@ -451,16 +448,19 @@ input:focus {
 }
 @media (max-width: 476px) {
   .link {
-    font-size: 10px;
+    font-size: 12px;
   }
   .texto {
-    font-size: 16px;
+    font-size: 20px;
   }
   p {
     font-size: 13px;
   }
   .titulo {
     font-size: 40px;
+  }
+  .subTitulo {
+    font-size: 35px;
   }
   h2 {
     font-size: 15px;

@@ -2,3 +2,17 @@
     display: flex;
     justify-content: center;
 }
+
+.centralo {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+
+@media (min-width: 450px) {
+    .arregloimg {
+        width: 75vh;
+    }
+}

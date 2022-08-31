@@ -18,6 +18,7 @@
         transform: scale(1.5);
     }
 }
+
 .caja2 {
     background-color: rgb(196, 148, 232);
     background: linear-gradient(red, blue);
@@ -42,6 +43,12 @@
     &:hover {
         scale: 1.5;
     }
+}
+
+.contenedor-redes {
+    display: flex;
+    justify-content: space-evenly;
+
 }
 
 .caja__publicidad {
@@ -103,7 +110,6 @@
     border-width: 2px;
     border-style: dashed;
     border-color: rgb(199, 151, 245);
-    background-color: rgba(127, 255, 212, 0.355);
 }
 
 .card:hover {
@@ -127,11 +133,16 @@
     column-gap: 20px;
 }
 
+.arregloimgredes {
+    width: 286px;
+    height: 280px;
+}
+
 .mapa {
     width: 500px;
 }
 
-@media (max-width: 1024px){
+@media (max-width: 1024px) {
     .productos {
         font-size: 23px;
 
@@ -154,7 +165,7 @@
     }
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
     .productos {
         font-size: 15px;
         display: flex;
@@ -204,7 +215,7 @@
 
 }
 
-@media (max-width: 476px){
+@media (max-width: 476px) {
     .instagram {
         font-size: 13px;
     }
@@ -220,6 +231,7 @@
     .redes-tarjeta {
         font-size: 13px;
     }
+
     .productos {
         overflow-y: scroll;
     }
