@@ -80,7 +80,7 @@
 .caja__terminos {
     width: vw;
     height: 120px;
-    color: black;
+    color: map-get($colores, rojo);
 
     border-color: rgb(0, 0, 0);
     border-width: 3px;

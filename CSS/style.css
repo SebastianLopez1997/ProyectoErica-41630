@@ -18,7 +18,7 @@
   white-space: 25px;
 }
 .link:hover {
-  background-color: rgb(203, 24, 248);
+  background-color: red;
 }
 
 h1 {
@@ -125,7 +125,7 @@ ul li {
 .caja__terminos {
   width: vw;
   height: 120px;
-  color: black;
+  color: rgb(239, 95, 95);
   border-color: rgb(0, 0, 0);
   border-width: 3px;
   border-style: dashed;
@@ -324,7 +324,6 @@ ul li {
   display: flex;
   justify-content: end;
 }
-
 .fote p {
   font-size: 26px;
 }
@@ -378,13 +377,12 @@ p::first-letter {
 .activo {
   background-color: rgba(125, 68, 232, 0.312);
 }
+.activo:active {
+  background-color: brown;
+}
 
 input:focus {
   border: 6px solid red;
-}
-
-.activo:active {
-  background-color: brown;
 }
 
 .img-menu {

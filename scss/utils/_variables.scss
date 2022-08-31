@@ -17,7 +17,7 @@
     white-space: 25px;
 
     &:hover {
-        background-color: rgb(203, 24, 248);
+        background-color: red;
     }
 }
 
@@ -54,3 +54,9 @@ ul li {
 .altura {
     height: 100%;
 }
+
+$colores: (
+    colorNegro: black,
+    violeta: rgb(249, 185, 249),
+    rojo: rgb(239, 95, 95)
+);

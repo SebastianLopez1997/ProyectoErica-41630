@@ -20,17 +20,14 @@ p::first-letter {
 
 .activo {
     background-color: rgba(125, 68, 232, 0.312);
+    &:active {
+        background-color: brown;
+    }
 }
 
 input:focus {
     border: 6px solid red;
 }
-
-.activo:active {
-    background-color: brown;
-}
-
-
 
 .img-menu {
     height: 55px;

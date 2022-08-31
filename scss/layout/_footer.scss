@@ -9,10 +9,10 @@
     text-align: right;
     display: flex;
     justify-content: end;
-}
 
-.fote p {
-    font-size: 26px;
+    & p {
+        font-size: 26px;
+    }
 }
 
 @media (max-width: 768px) {
