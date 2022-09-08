@@ -82,12 +82,10 @@
     height: 120px;
     color: map-get($colores, rojo);
 
-    border-color: rgb(0, 0, 0);
-    border-width: 3px;
+    border-color: rgb(218, 184, 244);
     border-style: dashed;
 
     font-size: 27.5px;
-    overflow-x: scroll;
     /* resumen valido border: 3px solid red;*/
     margin-top: 50px;
 }

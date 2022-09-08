@@ -7,11 +7,12 @@ article div>p {
 }
 
 p::first-letter {
-    font-size: 2rem; 
+    font-size: 2rem;
 }
 
 ::marker {
-    background-color: blueviolet;
+    background-color: rgba(205, 147, 249, 0.876);
+    ;
 }
 
 .espacio {
@@ -20,13 +21,15 @@ p::first-letter {
 
 .activo {
     background-color: rgba(125, 68, 232, 0.312);
+
     &:active {
-        background-color: brown;
+        background-color: rgba(205, 147, 249, 0.876);
+        ;
     }
 }
 
 input:focus {
-    border: 6px solid red;
+    border: 6px solid rgba(205, 147, 249, 0.876);
 }
 
 .img-menu {
@@ -62,7 +65,7 @@ input:focus {
     }
 
     p {
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .texto {
@@ -88,7 +91,7 @@ input:focus {
     }
 
     .link {
-        font-size: 19px;
+        font-size: 25px;
     }
 
     .foto-logo {
@@ -97,16 +100,12 @@ input:focus {
         align-items: initial;
     }
 
-    p {
-        font-size: 17px;
-    }
-
 }
 
 @media (max-width: 476px) {
 
     .link {
-        font-size: 12px;
+        font-size: 18px;
     }
 
     .texto {
@@ -114,7 +113,7 @@ input:focus {
     }
 
     p {
-        font-size: 13px;
+        font-size: 18px;
     }
 
     .titulo {
@@ -126,7 +125,7 @@ input:focus {
     }
 
     h2 {
-        font-size: 15px;
+        font-size: 22px;
     }
 
     article div>p {

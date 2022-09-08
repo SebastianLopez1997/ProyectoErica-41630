@@ -18,7 +18,8 @@
     white-space: 25px;
 
     &:hover {
-        background-color: red;
+        background-color: rgb(234, 175, 247);
+        ;
     }
 }
 
@@ -46,6 +47,8 @@ p {
 
 form {
     font-size: 25px;
+    display: flex;
+    justify-content: center;
 }
 
 ul li {
@@ -69,5 +72,6 @@ ul li {
 $colores: (
     colorNegro: black,
     violeta: rgb(249, 185, 249),
-    rojo: rgb(239, 95, 95)
+    rojo: rgb(239, 95, 95),
+    piel: rgba(205, 147, 249, 0.876)
 );

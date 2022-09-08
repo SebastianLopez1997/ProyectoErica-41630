@@ -9,7 +9,12 @@
     align-items: flex-end;
 }
 
-
+.edit-bordes {
+    border-style: dashed;
+    border-color: rgb(234, 175, 247);
+    border-radius: 25%;
+    margin: 1px;
+}
 
 @media (min-width: 450px) {
     .arregloimg {

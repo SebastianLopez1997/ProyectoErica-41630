@@ -18,7 +18,7 @@
   white-space: 25px;
 }
 .link:hover {
-  background-color: red;
+  background-color: rgb(234, 175, 247);
 }
 
 h1 {
@@ -44,6 +44,8 @@ p {
 
 form {
   font-size: 25px;
+  display: flex;
+  justify-content: center;
 }
 
 ul li {
@@ -135,11 +137,9 @@ ul li {
   width: vw;
   height: 120px;
   color: rgb(239, 95, 95);
-  border-color: rgb(0, 0, 0);
-  border-width: 3px;
+  border-color: rgb(218, 184, 244);
   border-style: dashed;
   font-size: 27.5px;
-  overflow-x: scroll;
   /* resumen valido border: 3px solid red;*/
   margin-top: 50px;
 }
@@ -335,6 +335,8 @@ ul li {
 }
 .fote p {
   font-size: 26px;
+  padding: 0%;
+  margin: 0%;
 }
 
 @media (max-width: 768px) {
@@ -344,7 +346,7 @@ ul li {
 }
 @media (max-width: 476px) {
   .fote p {
-    font-size: 10px;
+    font-size: 16px;
   }
 }
 .titulo {
@@ -356,6 +358,13 @@ ul li {
   display: flex;
   justify-content: center;
   align-items: flex-end;
+}
+
+.edit-bordes {
+  border-style: dashed;
+  border-color: rgb(234, 175, 247);
+  border-radius: 25%;
+  margin: 1px;
 }
 
 @media (min-width: 450px) {
@@ -376,7 +385,7 @@ p::first-letter {
 }
 
 ::marker {
-  background-color: blueviolet;
+  background-color: rgba(205, 147, 249, 0.876);
 }
 
 .espacio {
@@ -387,11 +396,11 @@ p::first-letter {
   background-color: rgba(125, 68, 232, 0.312);
 }
 .activo:active {
-  background-color: brown;
+  background-color: rgba(205, 147, 249, 0.876);
 }
 
 input:focus {
-  border: 6px solid red;
+  border: 6px solid rgba(205, 147, 249, 0.876);
 }
 
 .img-menu {
@@ -421,7 +430,7 @@ input:focus {
     font-size: 30px;
   }
   p {
-    font-size: 20px;
+    font-size: 25px;
   }
   .texto {
     font-size: 20px;
@@ -442,26 +451,23 @@ input:focus {
     height: 140px;
   }
   .link {
-    font-size: 19px;
+    font-size: 25px;
   }
   .foto-logo {
     justify-content: start;
     height: 120px;
     align-items: initial;
   }
-  p {
-    font-size: 17px;
-  }
 }
 @media (max-width: 476px) {
   .link {
-    font-size: 12px;
+    font-size: 18px;
   }
   .texto {
     font-size: 20px;
   }
   p {
-    font-size: 13px;
+    font-size: 18px;
   }
   .titulo {
     font-size: 40px;
@@ -470,7 +476,7 @@ input:focus {
     font-size: 35px;
   }
   h2 {
-    font-size: 15px;
+    font-size: 22px;
   }
   article div > p {
     font-size: 1rem;
