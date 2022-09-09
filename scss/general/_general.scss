@@ -6,10 +6,6 @@ article div>p {
     font-size: 2rem;
 }
 
-p::first-letter {
-    font-size: 2rem;
-}
-
 ::marker {
     background-color: rgba(205, 147, 249, 0.876);
     ;
@@ -28,6 +24,15 @@ p::first-letter {
     }
 }
 
+ol {
+    padding: 10px;
+    font-size: 32px;
+
+    &li {
+        font-size: 30px;
+    }
+}
+
 input:focus {
     border: 6px solid rgba(205, 147, 249, 0.876);
 }
@@ -36,7 +41,30 @@ input:focus {
     height: 55px;
 }
 
+h1 {
+    padding: 10px;
+    font-size: 50px;
+}
 
+h2 {
+    padding: 10px;
+    font-size: 40px;
+}
+
+h3 {
+    padding: 10px;
+    font-size: 35px;
+}
+
+h4 {
+    padding: 10px;
+    font-size: 30px;
+}
+
+p {
+    padding: 10px;
+    font-size: 25px;
+}
 
 .foto-logo {
     background-image: url(./imagenes/logomejorado.png);
@@ -64,8 +92,12 @@ input:focus {
         font-size: 30px;
     }
 
-    p {
+    h3 {
         font-size: 25px;
+    }
+
+    p {
+        font-size: 22px;
     }
 
     .texto {
@@ -100,6 +132,9 @@ input:focus {
         align-items: initial;
     }
 
+    ol li {
+        font-size: 25px;
+    }
 }
 
 @media (max-width: 476px) {
@@ -130,5 +165,9 @@ input:focus {
 
     article div>p {
         font-size: 1rem;
+    }
+
+    ol li {
+        font-size: 18px;
     }
 }
