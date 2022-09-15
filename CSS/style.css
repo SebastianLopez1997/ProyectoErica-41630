@@ -111,7 +111,8 @@ ul li {
   display: flex;
   justify-content: center;
   align-items: center;
-  align-self: center;
+  gap: 45px;
+  margin: 15px;
 }
 
 .caja__publicidad {
@@ -149,6 +150,12 @@ ul li {
 .prod {
   padding: 10px;
   height: 50px;
+}
+
+.centrar-productos {
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 .productos {
@@ -209,11 +216,14 @@ ul li {
     display: flex;
     flex-direction: column;
     flex-wrap: initial;
-    font-size: 15px;
+    font-size: 12px;
     height: 500px;
     width: 200px;
     border-style: dashed;
     border-color: rgb(199, 151, 245);
+  }
+  nav ol li {
+    font-size: 18px;
   }
   .prod {
     display: flex;
@@ -461,6 +471,12 @@ p {
 
 .centrar {
   justify-content: space-around;
+}
+
+.formulario {
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
 }
 
 @media (max-width: 768px) {
